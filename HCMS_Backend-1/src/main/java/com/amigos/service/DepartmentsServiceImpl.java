@@ -36,8 +36,7 @@ public class DepartmentsServiceImpl implements DepartmentsService {
 
 	@Override
 	public Departments getDepartmentById(int id) {
-		// TODO Auto-generated method stub
-		return null;
+		return departmentsDAO.getDepartmentById(id);
 	}
 
 }

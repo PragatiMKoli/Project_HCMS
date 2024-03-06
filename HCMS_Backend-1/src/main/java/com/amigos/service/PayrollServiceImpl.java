@@ -38,8 +38,8 @@ public class PayrollServiceImpl implements PayrollService{
 
 	@Override
 	public Payroll getPayrollById(int id) {
-		// TODO Auto-generated method stub
-		return null;
+		
+		return payrollDAO.getPayrollById(id);
 	}
 	
 	
